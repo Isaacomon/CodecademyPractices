@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #7881CF;
+    width: 100%;
+    display: table;
+    padding: 1em;
+}
+header a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+header ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+header img {
+    height: 4em;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+header img:hover {
+    background-color: #606BA6;
+
+}
+
+.fondo {
+    margin: auto;
+    margin-top: 1em;
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.info {
+    width: 25%;
+    float: right;
+    text-align: left;
+    background-color: #919EFF;
+    padding: 1em;
+}
+
+.info a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 13px;
+    color: #fff;
+}
+
+.info a:hover{
+    background-color: #606BA6;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info img {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.info h3{
+    color: #ffff;
+}
+
+.principal {
+    width:65%;
+    padding: 1em;
+    margin-left: 10%;
+}
+
+.principal h1 {
+    color:#7881CF;
+}
+
+.principal img {
+    padding: 2em;
+    float: right;
+    width: 300px;
+}
+
+.principal h4 {
+    color: #8CB6E0;
+}
+
+.principal li {
+    list-style-image: url(images/Espejo.jpg);
+}
+
+hr {
+    background-color: #606BA6;
+    border: #606BA6;
+    height: 5px;
+    margin-top: 2em;
+}
+
+footer {
+    background: #7881CF;
+    color: #ffff;
+    display: flex;
+    margin-top: 2em;
+}
+
+
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    float: right;
+    width: 10%;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+footer img:hover {
+    background-color: #606BA6;
+}
